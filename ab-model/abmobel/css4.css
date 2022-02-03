@@ -1,0 +1,356 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body {width:100%;
+background-color:#f32620;
+}
+nav{
+    width:100%;
+    height:70px;
+    background-color: #f76d04;
+}
+section.a1{
+  margin: 0;
+  padding: 0;
+  left: 0;
+    width:100%;
+    height:85px;
+    background-color: #f38029;
+}
+h1{
+  font-family: 'Pattaya', sans-serif;
+}
+.fondo{
+  top: 0;
+  left: 0;
+  top: 0;
+  left: 0;
+}
+section.A{
+  width:100%;
+  height:640px;
+  background-color: #f5db64;
+}
+#logo{position: fixed;
+    margin-left: 2%;
+    padding: 1%;
+    top: 6%;
+    width:8%;
+    height: 60px;
+}
+#usu{
+    position: fixed;
+    top: 0%;
+    height: 5%;
+    width: 3%;
+    margin-left: 90%;
+    padding: 2%;
+}
+a.Links{
+    text-align: right;
+    margin-left: 60%;
+    color: white; 
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------
+ul{
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    float: left;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    margin: 0 2px;
+}
+
+ul li:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 40px;
+    background: #000000;
+    border-radius: 50%;
+    transition: 0.5s;
+    opacity: 0; 
+    filter: blur(2px);
+    transform: scale(0.8);
+}
+
+ul li:hover:before{
+    transition-delay: 0.2s;
+    opacity: 0.2;
+    transform: scale(1);
+}
+
+ul li a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    transition: 0.5s;
+    background: #ccc;
+}
+
+ul li:hover a{
+    transform: translateY(-10px);
+}
+
+ul li a span{
+    width: 100%;
+    height: 100%;
+}
+
+ul li a span:before{
+    font-family: fontAwesome;
+    text-align: center;
+    line-heigth: 40px;
+    position: absolute;
+    top: 30%;
+    left: 0%; 
+    width: 100%;
+    height: 100%;
+    backgroud: #fff;
+    color: #262626;
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+ul li:hover a span:before{
+    transform: rotateX(90deg) translateY(-50%);
+}
+
+ul li a span:after{
+    font-family: fontAwesome;
+    text-align: center;
+    line-heigth: 40px;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    backgroud: #fff;
+    color: #fff;
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transform: rotateX(90deg) translateY(50%);
+}
+
+ul li:hover a span:after{
+    transform: rotateX(0deg) translateY(0);
+}
+
+ul li:nth-child(1) a span:before, 
+ul li:nth-child(1) a span:after{
+    content:'\f09a';
+}
+
+ul li:nth-child(2) a span:before, 
+ul li:nth-child(2) a span:after{
+    content:'\f099';    
+}
+
+ul li:nth-child(3) a span:before, 
+ul li:nth-child(3) a span:after{
+    content:'\f0d5';
+}
+
+ul li:nth-child(4) a span:before, 
+ul li:nth-child(4) a span:after{
+    content:'\f0e1';
+}
+
+ul li:nth-child(5) a span:before, 
+ul li:nth-child(5) a span:after{
+    content:'\f16d';
+}
+
+ul li:nth-child(1) a span:after{
+    background: #3b5999;
+}
+
+ul li:nth-child(2) a span:after{
+    background: #55acce;
+}
+
+ul li:nth-child(3) a span:after{
+    background: #dd4b39;
+}
+
+ul li:nth-child(4) a span:after{
+    background: #0077b5;
+}
+
+ul li:nth-child(5) a span:after{
+    background: #e4405f;
+}
+---------------------------------------------------------------------------------------------------------------------------------
+.cl-effect-20 a {
+    line-height: 2em;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    perspective: 800px;
+}
+
+.cl-effect-20 a span {
+    position: relative;
+    top: 35%;
+    display: inline-block;
+    padding: 10px 15px 0;
+    background: #974405;
+    box-shadow: inset 0 3px #f32620;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    transition: background 0.6s;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+
+.cl-effect-20 a span::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5db64;
+    color: #974405;
+    content: attr(data-hover);
+    -webkit-transform: rotateX(270deg);
+    -moz-transform: rotateX(270deg);
+    transform: rotateX(270deg);
+    -webkit-transition: -webkit-transform 0.6s;
+    -moz-transition: -moz-transform 0.6s;
+    transition: transform 0.6s;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    pointer-events: none;
+}
+
+.cl-effect-20 a:hover span,
+.cl-effect-20 a:focus span {
+    background: #2f4351;
+}
+
+.cl-effect-20 a:hover span::before,
+.cl-effect-20 a:focus span::before {
+    -webkit-transform: rotateX(10deg);  
+    -moz-transform: rotateX(10deg);
+    transform: rotateX(10deg);
+}
+-------------------------------------------------------------------------------------------------------------------
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 7s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

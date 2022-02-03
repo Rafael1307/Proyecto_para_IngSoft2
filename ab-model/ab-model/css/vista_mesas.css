@@ -1,0 +1,96 @@
+#gran_contenedor{
+	padding-bottom: 100%;
+  float: left;
+  width: 100%;
+  margin-top: 53px;
+  background-color: rgb(199, 226, 246);
+  	background-image: url("/ab_model/img/relajado.jpg");
+  	background-repeat: repeat;
+}
+.mesa{
+	width: 100%;
+	padding: auto;
+	align-items: center;
+
+}
+th{
+	text-align: center;
+	background-color: rgb(199, 246, 219);
+	font-size: 20px;
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+}
+td{
+	height: 30px;
+	font-size: 16px;
+	text-align: center;
+	background-color: rgb(246, 243, 199);
+	border-style: solid;
+	border-color:  beige;
+	border-width: 1px;
+}
+.especial{
+	height: 15px;
+	background-color: transparent;
+	border-width: 0px;
+}
+th button{
+	font-size: inherit;
+	padding: inherit;
+	height: 100%;
+	width: 100%;
+	border-width: 1px;
+}
+
+th button:hover{
+	background-color: lightgray;
+	opacity: .8;
+}
+
+.imagen_tabla{
+	width: 26px;
+	height: 26px;
+	animation-duration: 2s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes slidein{
+	from{
+		width: 26px;
+		height: 26px;
+	}
+	to{
+		margin-right: 3px;
+		margin-top: 3px;
+		width: 22px;
+		height: 22px;
+	}
+}
+h2{
+	padding: 2px;
+	font-size: 27px;
+	text-align: center;
+}
+
+#titulo_tabla{
+	border-style: solid;
+	border-width: 3px;
+	background-color:  lightblue;
+	
+}
+
+#boton_final{
+	float: left;
+	width: 100%
+}
+#tradicional{
+	background-color: lightyellow;
+	width: 96%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 2%;
+	text-align: center;
+	font-size: 20px;
+}

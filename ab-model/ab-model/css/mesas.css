@@ -1,0 +1,138 @@
+.tabla_general{
+  float: left;
+  width: 100%;
+  padding: auto;
+  align-items: center;
+  border-color: black;
+  background-color: transparent;
+}
+#tabla_menu{
+  float: left;
+  width:100%;
+   height:auto;
+   overflow:auto;
+     background-color: transparent;
+}
+#gran_contenedor_2{
+  padding-bottom: 100%;
+  float: left;
+  width: auto;
+  background-color: rgb(199, 226, 246);
+  background-image: url("/ab_model/img/relajante.jpg");
+  margin-left: -7px;
+}
+#cabecera{
+  float: left;
+  width: 100%;
+  padding: auto;
+  align-items: center;
+    background-color: transparent;
+}
+#contenedor_tabla{
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+#seleccion_mesa{
+  float: left;
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 73px;
+  font-size: 15px;
+}
+
+.administrar_mesas{
+  float: left;
+  font-size: 17px;
+}
+
+.input_position{
+	float: left;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+.input_position_2{
+	float: left;
+  margin-top: 16px;
+  margin-left: 10px;
+  width: 15%;
+}
+
+#id_producto{
+  width: 77%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 23%;
+}
+#id_p{
+  width: 25%;
+}
+#prod_cantidad{
+  width: 70%;
+  margin-left: 30%;
+  float: left;
+  margin-top: 10px;
+}
+#agregar{
+  float: left;
+  margin-top: 10px;
+  margin-left: 25%
+}
+#eliminar{
+  float: right;
+  margin-top: 10px;
+  margin-right: 25%;
+}
+
+#finalizar{
+  float: left;
+  margin-top: 15px;
+  margin-left: 40%;
+}
+#boton_agregar{
+  height: 45px;
+  width: 80px;
+  font-size: 15;
+  background-color: rgb(127,221,97);
+  color: white;
+  border-color: rgb(67, 190, 22);
+}
+#boton_eliminar{
+  height: 45px;
+  width: 80px;
+  font-size: 15;
+  background-color: rgb(234, 85, 68);
+  color: white;
+  border-color: rgb(195, 54, 38);
+}
+#boton_finalizar{
+  height: 45px;
+  width: 80px;
+  font-size: 15;
+  background-color: rgb(23, 174, 133);
+  color: black;
+  border-color: rgb(23, 174, 57);
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.td_borde{
+  background-color: rgb(179, 240, 246);
+  padding: 2px;
+  width: 50%;
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 1px;
+  text-align: center;
+}
+th{
+  background-color: rgb(71, 166, 178);
+  padding: 2px;
+  width: 50%;
+  border-style: solid;
+  border-color: rgb(42, 133, 165);
+  border-width: 1px;
+  text-align: center;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iniciar</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Login-A.css" media="(min-width: 701px)">
+		<link rel="stylesheet" type="text/css" href="Login-B.css" media="(max-width: 700px)">
+	<meta charset="utf-8">
+</head>
+<body>
+	<article>
+	<section id="sec2">
+	<div class="container">
+		<div class="row text-center login-page">
+			<div class="col-md-12 login-form">
+				<form action="LogInvitado.php" method="post"> 
+					
+					<div class="row">
+						<div class="col-md-12 login-form-header">
+							<p class="login-form-font-header">Iniciar sesion<span>Invitado</span></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 login-from-row">
+							<input name="mesa" type="number" placeholder="Mesa" required/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 login-from-row">
+							<input name="clave" type="password" placeholder="Clave" required/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 login-from-row">
+							<button class="btn btn-info">Entrar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	</div>
+	</section>
+	<section id="sec1">
+	<div class="container">
+		<div class="row text-center login-page">
+			<div class="col-md-12 login-form">
+				<form action="LoginA.php" method="post"> 
+					
+					<div class="row">
+						<div class="col-md-12 login-form-header">
+							<p class="login-form-font-header">Iniciar Sesion<span>Usuario</span></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 login-from-row">
+							<input name="usuario" type="email" placeholder="Usuario" required/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 login-from-row">
+							<input name="password" type="password" placeholder="Contraseña" required/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 login-from-row">
+							<input name="mesa" type="number" placeholder="Mesa"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 login-from-row">
+							<button class="btn btn-info">Entrar</button>
+						</div>
+					</div>
+				</form>
+				<div class="row">
+						<div class="col-md-12 login-from-row">
+							<a href="Registro.html"><button class="btn btn-info">Registarse</button></a>
+						</div>
+					</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+	</article>
+</body>
+</html>
